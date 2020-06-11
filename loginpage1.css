@@ -1,0 +1,75 @@
+
+body,html{
+    margin:0;
+    padding:0;
+    height:100%;
+    
+}
+.d1{
+    width:70%;
+    height:100%;
+    overflow: relative;
+    float:right;
+    background: url(maxresdefault.jpg)center no-repeat;
+ 
+}
+.login{
+    position: fixed;
+    overflow: hidden;
+    width:100%;
+    max-width:400px;
+    left:0;
+    margin:0;
+    background:#fff;
+    height:100%;
+   z-index: 1;
+}
+form{
+ margin:160px 75px;
+ 
+}
+.txt{
+    font-size: medium;
+    padding:4px;
+    margin-top:8px;
+}
+.login label{
+    margin-top:5px;
+    display: block;
+    font-size:20px;
+    font-weight: 700;
+}
+.btn{
+    text-align: center;
+    display:block;
+    margin:10px 0;
+    padding-right:20px;
+    padding-bottom:4px;
+}
+.checkbox{
+    margin-top:10px;
+}
+.btn:hover{
+    padding-right:30px;
+    padding-bottom:5px;
+    border:1px solid black;
+    color:white;
+    background-color:rgba(102, 100, 100, 0.74);
+    border-radius: 5px;
+    cursor: pointer;
+    display: table-cell;
+    text-align: middle;
+}
+h3{
+ font-size:20px;
+    text-decoration: underline;
+    text-decoration-color: darkcyan;
+
+}
+
+
+form .txt:hover{
+ border-radius:5px;
+}
+
+
